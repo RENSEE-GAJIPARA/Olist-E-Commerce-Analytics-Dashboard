@@ -9,9 +9,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![Institute](https://img.shields.io/badge/Institute-Red%20%26%20White%20Skill%20Education-CC0000?style=for-the-badge)
 
----
-
-[![Author](https://img.shields.io/badge/Author-RENSEE%20GAJIPARA-4A90D9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
 ---
 
@@ -35,7 +32,8 @@ This project is a comprehensive Power BI data modelling and analytics solution b
 ## 📊 Dashboard Preview
 
 ### Page 1 — Sales Overview
-![Sales Overview Dashboard](screenshots/Dashboard.png)
+
+<img width="1825" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/c35cc24d-605f-4877-87c9-471a1d55b8f0" />
 
 > **Key Metrics:** 99,441 Total Orders · R$1,35,91,643.70 Total Revenue · 4.09 Avg Customer Rating  
 > **Top Category:** Health & Beauty at R$1.26M revenue
@@ -112,7 +110,7 @@ Created all table relationships in **Model View** with the following configurati
 | 5 | DimDate → DimOrders | Date → order_purchase_timestamp | One to Many (1:*) | Single | ✅ Active |
 | 6 | FactPayments → DimOrders | order_id | Many to One (*:1) | Single | ✅ Active |
 | 7 | FactReviews → DimOrders | order_id | Many to One (*:1) | Single | ✅ Active |
-| 8 | DimDate → DimOrders | Date → order_delivered_customer_date | One to Many (1:*) | Single | ⚪ Inactive |
+| 8 | DimDate → DimOrders | Date → order_delivered_customer_date | One to Many (1:*) | Single | ✅ Active |
 
 ### Task 5 — Star Schema vs Snowflake Schema
 
@@ -188,7 +186,12 @@ Built 4 hierarchies enabling drill-down navigation in all visuals:
 
 ```
 pr3/
-├── CSV Dataset/
+├── Assets/
+│   ├── Page1_Icon.png
+│   ├── Page2_Icon.png
+│   └── Page3_Icon.png
+├── CSV Dataset/<img width="1825" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/87d85752-afb2-4f92-9bc6-b58ddda58489" />
+
 │   ├── olist_customers_dataset.csv
 │   ├── olist_geolocation_dataset.csv
 │   ├── olist_order_items_dataset.csv
@@ -207,13 +210,12 @@ pr3/
 │   ├── Galaxy Schema (Fact Constellation).png
 │   ├── Snowflak Schema.png
 │   └── Star Schema.png
+├── LICENCE
 ├── Olist E-Commerce Analytics Dashboard.pbix
 ├── Olist E-Commerce Analytics Dashboard.pdf
 ├── PR 3.docx
 └── README.md
 ```
-
----
 
 ## 🛠️ Tools Used
 
@@ -224,30 +226,14 @@ pr3/
 
 ---
 
-<div align="center">
-
----
-
-*Red & White Skill Education · Power BI · Practical Report 3*
-
-</div>
-
----
-
 ## 👤 Author
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=4A90D9&center=true&vCenter=true&width=500&lines=RENSEE+GAJIPARA;Power+BI+Developer;Data+Analyst" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=4A90D9&center=true&vCenter=true&width=500&lines=Power+BI+Developer;Data+Analyst" alt="Typing SVG" />
 
 <br/>
 
-[![Author](https://img.shields.io/badge/Author-RENSEE%20GAJIPARA-4A90D9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![Power BI](https://img.shields.io/badge/Power%20BI%20Developer-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://github.com/)
-[![Institute](https://img.shields.io/badge/Red%20%26%20White%20Skill%20Education-CC0000?style=for-the-badge&logoColor=white)](https://github.com/)
-
-<br/>
-
-![wave](https://capsule-render.vercel.app/api?type=waving&color=4A90D9&height=100&section=footer&text=RENSEE%20GAJIPARA&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn)
+![wave](https://capsule-render.vercel.app/api?type=waving&color=4A90D9&height=100&section=footer&text=RENSEE%20GAJIPARA&fontSize=24&fontColor=000000&fontAlignY=65&animation=fadeIn)
 
 </div>

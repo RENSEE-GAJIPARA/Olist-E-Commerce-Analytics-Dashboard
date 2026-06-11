@@ -230,10 +230,10 @@ pr3/
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=4A90D9&center=true&vCenter=true&width=500&lines=Power+BI+Developer;Data+Analyst" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=A7551B&center=true&vCenter=true&width=500&lines=Power+BI+Developer;Data+Analyst" alt="Typing SVG" />
 
 <br/>
 
-![wave](https://capsule-render.vercel.app/api?type=waving&color=4A90D9&height=100&section=footer&text=RENSEE%20GAJIPARA&fontSize=24&fontColor=000000&fontAlignY=65&animation=fadeIn)
+![wave](https://capsule-render.vercel.app/api?type=waving&color=A7551B&height=100&section=footer&text=RENSEE%20GAJIPARA&fontSize=24&fontColor=000000&fontAlignY=65&animation=fadeIn)
 
 </div>
